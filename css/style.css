@@ -96,16 +96,10 @@ nav label.bars{
     display: block;
     width: 100%;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    
-}
 #home .wrapper header .middle ul li .icon{
     display:none;
 }
 #home .wrapper header .middle ul li {
-    display: inline-block;
     margin-right: 4rem;
     
 }
@@ -128,6 +122,7 @@ nav ul{
     border: 2px solid #fff;
     border-radius: 20px;
     color: #fff;
+    display: inline-block;
 }
 #home .wrapper header div.right .icon{
     font-size: 20px;
@@ -226,6 +221,7 @@ footer .link-boxes ul.icons{
     display: flex;
 }
 footer .link-boxes ul.icons li{
+    display: inline-block;
     margin-right: 15px;
 }
 footer .link-boxes ul.icons li:last-child{
@@ -266,6 +262,7 @@ footer hr.line{
 }
 footer .bottom{
     display: flex;
+    justify-content: space-between;
 }
 footer .bottom .left{
     display: flex;
@@ -278,7 +275,8 @@ footer .bottom .left a:last-child{
     margin-right: 0;
 }
 footer .center ul li{
-    margin-right:15px;
+    margin-right:24px;
+    display: inline-block;
 }
 footer .center ul li:nth-child(7){
     margin-right: 10px;
@@ -287,7 +285,7 @@ footer .center ul li:last-child{
     margin-right: 0;
 }
 footer .center ul li a{
-    font-size: 12px;
+    font-size: 11px;
 }
 footer .center ul li a.number{
     width: 60%;
@@ -314,12 +312,20 @@ footer .center ul li a.number{
         font-size: 12px;
     }
     footer .center ul li {
-        margin-right: 27px;
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    footer .center ul li {
+        margin-right: 25px;
     }
 }
 @media screen and (max-width: 1080px) {
     footer .center ul li a{
         font-size: 10px;
+    }
+    footer .center ul li {
+        margin-right: 9px;
     }
 }
 @media screen and (max-width: 980px) {
@@ -385,14 +391,14 @@ footer .center ul li a.number{
     }
 }
  @media screen and (max-width: 798px) {
-    nav ul{
+    header .middle ul{
         display: block;
         position: fixed;
         height: 100%;
         width: 100%;
         top: 0;
         left: -100%;
-        z-index: 12;
+        z-index: 10;
         background-color: #fff;
         padding-top: 2rem;
         transition: all 0.5s ease;
