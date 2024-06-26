@@ -92,6 +92,7 @@ nav label.bars{
 #home .wrapper header .left{
    width: 5%;
 }
+
 #home .wrapper header .left a img{
     display: block;
     width: 100%;
@@ -219,6 +220,9 @@ footer .link-boxes ul li h1{
 }
 footer .link-boxes ul.icons{
     display: flex;
+}
+footer .top-right .link-boxes .box li a{
+    font-family: none;
 }
 footer .link-boxes ul.icons li{
     display: inline-block;
@@ -372,6 +376,11 @@ footer .center ul li a.number{
         width: 100%;
     }
     footer .center ul li a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 801px) {
+    #home .wrapper header .middle ul li a {
         font-size: 15px;
     }
 }
