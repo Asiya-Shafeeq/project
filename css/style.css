@@ -221,9 +221,6 @@ footer .link-boxes ul li h1{
 footer .link-boxes ul.icons{
     display: flex;
 }
-footer .top-right .link-boxes .box li a{
-    font-family: none;
-}
 footer .link-boxes ul.icons li{
     display: inline-block;
     margin-right: 15px;
@@ -292,7 +289,7 @@ footer .center ul li a{
     font-size: 11px;
 }
 footer .center ul li a.number{
-    width: 60%;
+    width: 75%;
     display: block;
 }
 
@@ -326,7 +323,7 @@ footer .center ul li a.number{
 }
 @media screen and (max-width: 1080px) {
     footer .center ul li a{
-        font-size: 10px;
+        font-size: 11px;
     }
     footer .center ul li {
         margin-right: 9px;
@@ -357,6 +354,7 @@ footer .center ul li a.number{
     }
     footer .link-boxes .box .link_name{
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     footer .link-boxes ul.icons{
@@ -512,6 +510,9 @@ footer .center ul li a.number{
     }
     footer .center ul li a{
         font-size: 10px;
+    }
+    footer .bottom{
+        justify-content: end;
     }
 }
  
