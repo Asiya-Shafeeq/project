@@ -36,6 +36,14 @@ img{
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/fontello/Intro\ Cond\ Alt.otf');
+    src: url('../fonts/fontello/Intro\ Cond\ Alt.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 nav label.button{
     font-size: 35px;
     cursor: pointer;
@@ -217,6 +225,9 @@ footer .link-boxes ul{
 }
 footer .link-boxes ul li h1{
     color: #fff;
+}
+footer .link-boxes ul li a{
+    font-family: 'Intro';
 }
 footer .link-boxes ul.icons{
     display: flex;
